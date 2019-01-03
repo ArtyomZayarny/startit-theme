@@ -120,7 +120,8 @@
 #flexmenu .nav-inner ul.main-menu > li:last-child{
     padding-right: 0px;
 }
-#flexmenu .nav-inner > ul.main-menu > li > a:after {
+#flexmenu .nav-inner > ul.main-menu > li > a:after,
+#flexmenu .nav-inner ul.main-menu li a:after{
     content: "";
     position: absolute;
     left: 50%;
@@ -135,7 +136,8 @@
     transition: width 0.25s ease-out;
 }
 #flexmenu .nav-inner > ul.main-menu > li > a.active:after,
-#flexmenu .nav-inner > ul.main-menu > li > a:hover:after {
+#flexmenu .nav-inner > ul.main-menu > li > a:hover:after,
+#flexmenu .nav-inner  ul.main-menu  li a:hover:after{
     width: 70px;
     transition: width 0.25s ease-in;
 }

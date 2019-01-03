@@ -1,3 +1,10 @@
+<?php
+/*
+Template Name: Home
+*/
+?>
+
+
 <?php get_header(); ?>
 <!-- Start Header -->
 <?php get_template_part( 'parts/content/navigation' ); ?>

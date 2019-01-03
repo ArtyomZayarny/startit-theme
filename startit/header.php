@@ -12,9 +12,10 @@
     <title>Carrby - Agency Template</title>
 
     <!-- Favicon and Touch Icons -->
-    <link href="<?php echo get_template_directory_uri();?>/images/favicon.png" rel="shortcut icon" type="image/png">
-
-    <!-- Lead Style -->
-    <link href="<?php echo get_template_directory_uri(); ?>/css/style.css" rel="stylesheet" type="text/css">
-
+   <!-- <link href="<?php echo get_template_directory_uri();?>/images/favicon.png" rel="shortcut icon" type="image/png"> -->
+    <!-- wp_head -->
+    <?php
+    wp_head();
+    ?>
+    <!-- wp_head -->
 </head>
